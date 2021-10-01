@@ -33,6 +33,15 @@ body {
     font-size: 32px;
     text-align: center;
   }
+  .text-start {
+    text-align: center !important;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -93,6 +102,10 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.contact-link:hover {
   color: white;
 }
 
